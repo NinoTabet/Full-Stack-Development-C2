@@ -1,0 +1,63 @@
+body{
+    background-color: gray;
+    color: white;
+    height: 5000px;
+    width: 100vw;
+    border: 3px solid black;  
+}
+
+h1{
+    border-top: 2px solid greenyellow;  
+    border-bottom: 2px solid greenyellow;  
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: -1;
+}
+
+.tuesday{
+    color: black;
+}
+
+p{
+    height: 5%;
+    border: 2px solid red;
+}
+
+.newHeader{
+    border-color: aqua;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px; /*test this out more*/
+    padding: 2px;
+}
+
+li{
+    border:1px solid black;
+    margin: 2px;
+}
+
+
+/*
+types of positioning:
+    static
+    fixed
+    absolute
+    relative
+
+z pos
+top bor
+bot bor
+
+bor rad
+bor sty
+bor col
+bor w
+
+pad
+
+mar
+*/

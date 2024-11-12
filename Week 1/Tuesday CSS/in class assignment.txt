@@ -1,0 +1,22 @@
+1) Create a css stylesheet called "cats"
+
+2) reference this stylesheet inside of your html file
+
+3) add a background color to at least 2 tags
+
+4) set the height and width of your document to 
+    100 view height and width respectively
+
+5) add a fixed position header that will sit 10% from the top
+    and 50% from the left of your webpage. This header should
+    also be centered on itself 
+    (hint: transform:translate(x,y), text-align:;)
+
+6) use padding and margin at least 1 time each
+
+7) add a color to all p tags so that they're matching
+
+8) add a red dotted border of 5px width to any tag
+
+9) the overall text color of the document should be consistent
+    (hint: think of adding a color to body)
