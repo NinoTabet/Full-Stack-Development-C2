@@ -1,0 +1,26 @@
+Your client messages you the following:
+
+Hi there! We need a bus schedule website. This website should contain the bus times for the F9S66 bus stop for the entire week.
+We need the user's to be able to hop on the website, check bus times, and possibly send us some feedback in case busses are late. 
+If they decide to send us some feedback, we need a way to contact them so please ensure that they put their name and email as well
+as any other information you see fit. We need this done by the end of the hour. Please make it look as pretty as possible.
+We understand the time frame isn't that long so having a functional website is much more important than a pretty website. Thanks!
+
+HTML Criteria:
+    1. Must have a table with bus times for the week
+    2. Include the bus stop name at the top of the table
+    3. Have an H1 tag at the top of the website that says "Bus times for stop F9S66"
+    4. Beneath your table, there should be a p tag explaining that if the user were to experience delays, to please submit the below form 
+    5. Have a form that has a submit button and requests the following information: Name, Age, email, phone number, time, and feedback
+
+CSS Criteria:
+    1. All content should be centered horizontally on your page
+    2. Your table should have a border with rounded edges
+    3. Your entire website should have a padding on all sides
+    4. Your form should have a rounded border and be a square shape
+
+Bonus:
+    Bonus points if you can add more than what's described in the requirements and still meet the client's deadline
+
+Tip: Always look to build something functional first. Once it's functional, then make it look pretty. Your client also cares more about functionality than looks, 
+     so keep that in mind when working on their website.
