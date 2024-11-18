@@ -1,0 +1,5 @@
+.cat{
+    width: 100px;
+    height: auto;
+    /*Doing this maintains aspect ration of the img*/
+}

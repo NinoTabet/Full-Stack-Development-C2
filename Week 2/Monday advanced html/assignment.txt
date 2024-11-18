@@ -1,0 +1,23 @@
+navbar with 3 links to other html pages
+each html page should also have a link to direct the user back to the home page
+use divs to create 4 boxes each with their own image inside.
+beneath it all, create a section that has a p tag and h tag explaining the content of your page
+at the very bottom of your page, have a div thats split down the middle. in the left half, have a form. In the right half
+have a p tag with an explination of the form.
+
+required:
+    <div>
+    <nav>
+    <section>
+    <img>
+    <h1>
+    <p>
+    <form>
+    <label>
+    <input>
+    <button>
+
+
+optional:
+    <header>
+    <footer>
