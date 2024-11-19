@@ -1,0 +1,10 @@
+create a website that has a navigation bar (use display: flex;) with 3 links on it (href="#"). the links should be centered horizontally
+to the navigation bar and the navigation bar should be fixed to the top of the screen (position: fixed;)
+
+next create a grid that has 4 columns and the row height should be 100px
+
+your grid should be centered within a bordered div both horizontally and vertically
+
+add an h1 tag at the very bottom of your page that has an animation with at least 3 keyframes
+
+(all content should be centered horizontally)
