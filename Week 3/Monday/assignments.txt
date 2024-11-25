@@ -1,0 +1,34 @@
+1. Print Values from an Object
+Write a program to create an object called book with the following properties:
+
+title (string)
+author (string)
+pages (number)
+Use console.log() to print the title and pages properties of the object.
+
+2. Simple For Loop with an Array (array.length)
+Create an array called colors with at least five color names. 
+Use a for loop to print each color in the array to the console.
+
+3. Update Object Properties
+Create an object called person with these properties:
+
+name (string)
+age (number)
+isStudent (boolean)
+Write a program to:
+
+Update the age property by adding 1.
+Change isStudent to false.
+Print the updated object to the console.
+
+4. Conditional Logging with Variables
+Create two variables, temperature and weather.
+
+Set temperature to any number.
+Set weather to either "sunny" or "rainy".
+Write an if-else statement to print:
+
+"It's warm and sunny!" if the temperature is above 20 and the weather is "sunny".
+"It's cold and rainy!" if the temperature is 20 or below and the weather is "rainy".
+"It's just another day." for any other conditions.
