@@ -1,0 +1,46 @@
+div{
+    height: 50%;
+    height: 25%;
+    /*use percentages instead of pixels*/
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    color:brown
+}
+
+/* smallest screens like phones */
+@media only screen and (max-width:600px){
+    body{
+        color: red;
+    }
+}
+/* medium devices like landscape tables */
+@media only screen and (min-width:768px){
+    body{
+        color: green;
+    }
+}
+
+/* large device laptops/desktops and possibly tablets */
+@media only screen and (min-width:992px){
+    body{
+        color: black;
+    }
+}
+
+/* laptop or desktop screens */
+@media only screen and (min-width:1200px){
+    body{
+        color: blue;
+    }
+}
+/* @media only screen and (orientation: landscape){
+    body{
+        color: white;
+    }
+} */
