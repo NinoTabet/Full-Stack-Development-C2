@@ -83,7 +83,7 @@ if (yy = 2){
 const abel = 5
 const nat = 4
 
-if((abel = 5) & (nat = 4)){
+if((abel = 5) && (nat = 4)){
 
 }
 
