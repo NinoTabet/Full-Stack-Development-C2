@@ -25,10 +25,10 @@ const car2 = {
 
 export { car1, car2};
 
-// export function createPerson (name, age, occupation){
-//     return{
-//         name: name,
-//         age: age,
-//         occupation: occupation
-//     }
-// }
+export function createPerson (name, age, occupation){
+    return{
+        name: name,
+        age: age,
+        occupation: occupation
+    }
+}
