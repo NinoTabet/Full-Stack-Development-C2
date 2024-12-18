@@ -115,16 +115,44 @@ app.delete("/Remove", async (req, res) => {
     }
 })
 
-// do this first thing tomorrow --- 
+// updates movie in db
 app.put("/Update", async (req, res) => {
     try {
+        // collects the old movie title and the new title from the request body
+        const { oldTitle, newTitle } = req.body;
 
-        res.status(200).json();
+        // checks if either oldTitle or newTitle is undefined
+        if (!oldTitle || !newTitle) {
+            return res.status(401).json({
+                message: 'Both oldTitle and newTitle are required to update a movie.',
+            });
+        }
+
+        // checks if the old movie exists in the db
+        const movieUpdate = await pool.query(
+            'UPDATE movies SET movie_title = $1 WHERE movie_title ILIKE $2 RETURNING *',
+            [newTitle, oldTitle]
+        );
+
+        // if the movie to be updated does not exist
+        if (movieUpdate.rowCount === 0) {
+            return res.status(404).json({message: 'Movie not found in the database. Please check the oldTitle.'});
+        }
+
+        // 200 - movie updated successfully
+        res.status(200).json(
+            {
+                message: 'Movie title updated successfully.',
+                movie_id: movieUpdate.rows[0].movie_id
+            });
+
     } catch (err) {
-        return res.status(500).json({message: 'Internal Server Error'})
+        console.error(err);
+        return res.status(500).json({
+            message: 'Internal Server Error',
+        });
     }
-})
-
+});
 
 
 const PORT = 3000
