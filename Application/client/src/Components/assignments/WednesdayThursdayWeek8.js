@@ -85,7 +85,7 @@
 
     // delete endpoint to delete a book from the database
     app.delete("/delete", async (req, res) => {
-    const { title, author } = req.body;
+    const { title, author } = req.query;
 
     // check if title and author are provided
     if (!title || !author) {
