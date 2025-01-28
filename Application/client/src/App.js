@@ -13,6 +13,7 @@ import Mapping2 from "./Components/Mapping/Mapping2";
 import Mapping3 from "./Components/Mapping/Mapping3";
 import Forms from "./Components/Forms/Forms";
 import Test from "./Components/Test";
+import AxiosRequests from "./Components/AxiosRequests/AxiosRequests";
 
 function App() {
 
@@ -37,8 +38,8 @@ function App() {
           {/* <Mapping1 />  */}
           {/* <Mapping2 /> */}
           {/* <Mapping3 /> */}
-          <Route path="/forms" element={<Forms />}/>
-          <Route path="/" element={<Test />}/>
+          {/* <Route path="/forms" element={<Forms />}/> */}
+          <Route path="/" element={<AxiosRequests />}/>
         </Routes>
       </div>
     </Router>
