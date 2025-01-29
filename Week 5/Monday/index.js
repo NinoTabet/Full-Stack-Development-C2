@@ -19,24 +19,24 @@ let movies = [
 // get endpoint
 app.get("/Search", async (req, res) => {
     try {
-        const {movieName} = req.query;
+        const {movieName} = req.query; //--
 
         if (!movieName){
             return res.status(401).json('Please input a movie name.')
         }
 
-        let search = []
+        let search = []//--
 
         for (let i = 0; i < movies.length; i++){
             if(movies[i] === movieName){
-                search.push(movies[i]);
+                search.push(movies[i]);//--
             }
         }
 
         if (search.length === 0){
             return res.status(404).json('Movie not found.');
         }else{
-            return res.status(200).json(search);
+            return res.status(200).json(search);//--
         }
 
     } catch (err) {

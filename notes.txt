@@ -1,1 +1,3 @@
-NoSQL DB
+DATABASE_URL = postgres://username:password@connectionlink:5432/databasename?sslmode=disable
+-- DATABASE_URL = postgres://postgres:password@localhost:5432/postgres?sslmode=disable
+

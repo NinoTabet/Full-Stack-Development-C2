@@ -28,7 +28,6 @@ switch(fruit){
     default:
         console.log('what fruit is that?')
 }
-
 // break - breaks out of a loop or case to continue the code
 // return - breaks out of the entire function
 // continue - continues to the next iteration of a loop without running any of the code that follows

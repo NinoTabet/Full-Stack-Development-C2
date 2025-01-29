@@ -52,9 +52,20 @@ const testArray = ['woof','meow','hello', 100, true];
 console.log(testArray[2]);
 console.log(testArray[3]); // what would this print to the console? - 100
 
-for (let i = 0; i<5; i++){
+for (let i = 0; i<5; i){
     console.log('hi');
 } // will print i 5 times
+
+let sales = []
+
+for(let sale of sales){
+    // sales[i].info
+    sale.info
+}
+
+for(let i = 0; i<sales.length; i++){
+    sales[i]
+}
 
 while (d = true){
     osiadnfoaidnfoadnfioasn;
@@ -67,7 +78,7 @@ if (yy = 2){
 }else if(yy=3){
     console.log('hello world');
 }else{
-    console.log('else statement triggered')
+    console.log('else steatment triggered')
 }
 
 // if(){
